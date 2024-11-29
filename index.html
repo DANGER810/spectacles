@@ -1,0 +1,475 @@
+<html>
+<head>
+	<title>
+		Spectacles
+	</title>
+	<style>
+		header{
+			width:100%;
+			height:50px;
+			float: left;
+			box-sizing:border-box;
+
+		}
+		body{
+			padding: 0;
+			margin: 0;
+
+		}
+		#brand{
+			padding:0;
+			margin: 0;
+			text-size-adjust:2px;
+			float: left;
+			margin-left: 30px;
+
+		}
+		#tagline{
+			float:right;
+			text-size-adjust:10px;
+			margin-right: 30px;
+		}
+		nav{
+			width: 100%;
+			height:80;
+			background-color:orangered;
+			box-sizing: border-box;
+			float:left;
+			box-sizing: border-box;
+		}
+		#search{
+			width:200px;
+			height: 40px;
+			float: left;
+			box-sizing: border-box;
+			border: none;
+			font-size: 20px;
+			margin-top:20px;
+			margin-left:20px;
+		}
+		#submit{
+			width: 100px;
+			height: 40px;
+			float: left;
+			box-sizing: border-box;
+			border: none;
+			margin-left: 3px;
+			font-size: 20px;
+			margin-top:20px;
+		}
+		#menu{
+			width: 600px;
+			height: 40px;
+			float: right;
+			box-sizing: border-box;
+			margin-top:5px;
+		}
+		#box{
+			background-color:black;
+			text-align: center;
+			color: white;
+			box-sizing: border-box;
+			margin-top:10px;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+			font-family:sans-serif;
+		}
+		section{
+			width: 100%;
+			height: 1450px;
+			float: left;		
+			box-sizing: border-box;
+			padding: 10px;
+		}
+		fieldset{
+			width:690px;
+			height:450px;
+			float:left;
+			margin-top:20px;
+			border-width:1px;
+			border-style:solid;
+			border-color:#ccc;
+		}
+		legend{
+			font-family:sans-serif;
+			font-size:30px;
+			font-weight:bold;
+		}
+		footer{
+			width:100%;
+			height:250px;
+			box-sizing: border-box;
+			float: left;
+			background-color:orangered;
+		}
+		#venue{
+			float: left;
+		}
+		#phone{
+			float: right;
+			margin-right:10px;
+		}
+		#popular{
+			width:720px;
+			height: 530px;
+			float:left;
+			box-sizing: border-box;
+			background-color:black;
+			margin-top:10px;
+			padding: 10px;
+		}
+		#glasses{
+			color: white;
+			text-align: center;
+			font-size:30px;
+			font-family: sans-serif;
+			margin-top:1px;
+			margin-bottom:12px;
+
+		}
+		#img{
+			width: 300px;
+			height:200px;
+			margin: 20px;
+			border-width:3px;
+			border-color:white;
+			border-style:dotted;
+			margin-top:1px;
+		}
+		#price{
+			width:370px;
+			height:530px;
+			border-color: black;
+			float: right;
+			box-sizing: border-box;
+			margin-top:10px;
+			margin-right:220px;	
+		}
+		#title{
+			height:50px;
+			background-color:black;
+			margin-right:50px;
+			color: white;
+			text-align:center;
+			border-color:white;
+			font-family:sans-serif;
+			font-size:25px;
+		}
+		#content{
+			background-color:white;
+			font-family:sans-serif;
+			font-size:20px;
+			padding:7px;
+			border-bottom-width:2px;
+			border-bottom-style:solid;
+			border-bottom-color:black;
+			border-bottom-left-radius:10px;
+			padding-bottom:11px;
+
+		}
+		#money{
+			background-color:white;
+			font-family:sans-serif;
+			font-size:20px;
+			text-align:center;
+			padding:7px;
+			border-bottom-width:2px;
+			border-bottom-style:solid;
+			border-bottom-color:black;
+			padding-bottom:11px;
+			border-bottom-left-radius:10px;
+		}
+		#order{
+			font-size:17px;
+			font-family:sans-serif;
+			font-weight:bold;
+		}
+		#online{
+			width:100%;
+			height:33px;
+			box-sizing: border-box;
+			border-width:1px;
+			border-color:#ccc;
+			border-style:solid;
+		}
+		#form{
+			padding:10px;
+			font-size:13px;
+			background-color:green;
+			float:right;
+			margin-top:5px;
+		}
+		textarea{
+			width:100%;
+			height:50px;
+			border-width:1px;
+			border-color:#ccc;
+			border-style:solid;
+		}
+		#about_us{
+			width: 370px;
+			height:450px;
+			background-color:white;
+			float:right;
+			border-width:1px;
+			border-style:solid;
+			border-color:#ccc;
+			margin-top:35px;
+			margin-right:220px;	
+			box-sizing: border-box;
+		}
+		#line{
+			width:100%;
+			border-style:dotted;
+			margin-top:1px;
+			margin-bottom:1px;
+			border-width:2px;
+		}
+		#aboutus{
+			margin-bottom:2px;
+			font-family:sans-serif;
+			font-size:18px;
+			box-sizing:border-box;
+			margin-left:5px; 
+			text-align:justify;
+			margin-right:5px;
+			margin-top:5px;
+		}
+		#mglasses{
+			float:left;
+			width:100%;
+			box-sizing: border-box;
+		}
+		#moresweets{
+			text-align:center;
+			font-family:serif;
+			font-size:30px;
+		}
+		#glass{
+			width:210px;
+			height:240px;
+			border-width:1px;
+			border-style:solid;
+			border-color:#ccc;
+			float:left;
+			margin-right:12px;
+		}
+		#glass_end{
+			width:210px;
+			height:240px;
+			border-width:1px;
+			border-style:solid;
+			border-color:#ccc;
+			float:left;
+		}
+		#imgg{
+		width: 200px;
+		height:200px;
+		margin:5px;
+		}
+		#button{
+			width:100%;
+			height:28px;
+			background-color:green;
+			color:white;
+		}
+		#contact{
+			width:430px;
+			height:250px;
+			box-sizing: border-box;
+			float: left;
+		}
+		#social{
+			width:400px;
+			height:250px;
+			box-sizing: border-box;
+			float: right;
+		}
+		#con{
+			color:white;
+			font-family:serif;
+			margin-top:5px;
+			font-weight:normal;
+			padding-left:10px;
+		}
+		#add{
+			font-size:20px;
+			font-family:sans-serif;
+			font-style:normal;
+			color:white;
+			padding-left:10px;
+		}
+		#poster{
+			width:519px;
+			height:250px;
+			float:left;
+		}
+		#imm{
+			width:60px;
+			height:60px;
+			padding:7px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 id="brand">Spectalcles Shop.com</h1>
+		<p id="tagline">The Indias largest Eye Glasses Shop </p>
+	</header>
+	<nav><form>
+		<input type="search" name="suyog" placeholder="Search Your Glasses" id="search">
+		<input type="Submit" id="submit" value="Search">
+	</form>
+	<table id="menu">
+		<tr id="box">
+			<td><a href="#">HOME</a></td>
+			<td><a href="#">Sunglass</a></td>
+			<td><a href="#">Gogles</a></td>
+			<td><a href="#">Glasses</a></td>
+			<td><a href="#">Frames</a></td>
+			<td><a href="#about_us">About Us</a></td>
+		</tr>
+	</table>
+	</nav>
+	<section>
+		<address id="Venue">Venue :-Near Sonaji Maharaj Mandir, Sonala</address>
+		<address id="phone">Order Online/Enquiry : 8432408674</address>
+		<div id="popular">
+			<h1 id="glasses"><u>Popular</u> <u>Glasses</u></h1>
+			<img src="https://m.media-amazon.com/images/I/51c9chOPgQL._AC_UY1100_.jpg" alt="a" id="img">
+			<img src="https://m.media-amazon.com/images/I/51II2RAG4TL._AC_UY1100_.jpg" alt="b" id="img">
+			<img src="https://m.media-amazon.com/images/I/51K0+mH3uoL._AC_UY1100_.jpg" alt="c" id="img">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Okulary_korekcyjne.jpg/640px-2023_Okulary_korekcyjne.jpg" alt="d" id="img">
+		</div>
+		<table id="price" border="1">
+			<tr id="title">
+			<td>Catagory</td>
+			<td>Price</td>
+			</tr>
+			<tr>
+			<td>
+				<ol>
+					<li id="content">Children Frame</li>
+					<li id="content">Mens Frame</li>
+					<li id="content">Womens Frame</li>
+					<li id="content">Fashion Frame</li>
+					<li id="content">Geometric Frame</li>
+					<li id="content">Color Frame</li>
+					<li id="content">Decorative Frame</li>
+					<li id="content">Circular Frame</li>
+					<li id="content">Rectangular Frame</li>
+					<li id="content">Hexagonal Frame</li>
+				</ol>
+			</td>
+			<td>
+				<ol style="list-style: none;" >
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+					<li id="money">1000</li>
+				</ol>
+			</td>
+			</tr>
+		</table>
+		<fieldset id="a">
+			<legend>
+				Order Online
+			</legend>
+			<form id="order">
+				Buyer Name<br>
+				<input type="text" name="name" placeholder="Full Name" id="online"><br><br>
+				Mobile No.<br>
+				<input type="number" name="mobile" placeholder="Mobile number"  id="online"><br><br>
+				Choose Glass Type<br>
+				<select name="Choose_Glasses" id="online">
+					<option value="Children_Frame">Children Frame</option>
+					<option value="Mens_Frame">Mens Frame</option>
+					<option value="Womens_Frame">Womens Frame</option>
+					<option value="Fashion_Frame">Fashion Frame</option>
+					<option value="Geometric_Frame">Geometric Frame</option>
+					<option value="Color_Frame">Color Frame</option>
+					<option value="Decorative_Frame">Decorative Frame</option>
+					<option value="Circular Frame">Circular Frame</option>
+					<option value="Rectangular_Frame">Rectangular Frame</option>
+					<option value="Hexagonal_Frame">Hexagonal Frame</option>
+				</select><br><br>
+				Select Delivery Type<br>
+				<select name="Delivery" id="online">
+					<option value="At Home">At Your Home</option>
+					<option value="self pickup">Self Pickup</option>
+				</select><br><br>
+				Address<br>
+				<textarea name="address" placeholder="Enter Your Full address(If you select self pickup then type none )"></textarea><br>
+				<input type="submit" value="Order Now" id="form">
+			</form>
+		</fieldset>
+		<div id="about_us">
+			<h1 align="center">About Us</h1>
+			<hr id="line">
+			<p id="aboutus">
+				Welcome to Vighnhartha Optical,
+				located near Sonaji Maharaj Temple,
+				Sonala Town. Owned by Anand Wasankar,
+				we offer a wide range of stylish and 	comfortable eyewear.
+				An eye doctor visits every Monday from Akola for checkups and expert advice, ensuring you receive the best care for your vision needs.<br>
+				Our online store showcases a variety of popular glasses with their names and average prices. You can easily place orders through a simple order form, making it convenient to shop for eyewear anytime, anywhere.
+				Find your perfect pair today with Veghnhartha Optical
+			</p>
+		</div>
+		<div id="mglasses">
+			<h1 id="moresweets">More Glasses</h1>
+		</div>
+		<center><div id="glass">
+			<a href="#a"><img src="https://m.media-amazon.com/images/I/41GWBG-NNzL._AC_UY1100_.jpg" id="imgg">
+			<button id="button">Buy Now</button></a>
+		</div>
+		<div id="glass">
+			<a href="#a"><img src="https://rukminim2.flixcart.com/image/720/864/xif0q/safety-goggle/s/y/a/free-size-1-bike-racing-goggles-unisex-adult-round-sunglasses-original-imahf6pdhf8bjgcm.jpeg?q=60&crop=false" id="imgg">
+			<button id="button">Buy Now</button></a>
+		</div>
+		<div id="glass">
+			<a href="#a"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpUT18yjxWdy8T11UPd5uANRNY7OZl8q1fg&s" id="imgg">
+			<button id="button">Buy Now</button></a>
+		</div>
+		<div id="glass">
+			<a href="#a"><img src="https://d3995ea24pmi7m.cloudfront.net/fit-in/400x260/ft-media/wysiwyg/ft-v2/header-images/header-menu-banner_frames_540_345.png" id="imgg">
+			<button id="button">Buy Now</button></a>
+		</div>
+		<div id="glass">
+			<a href="#a"><img src="https://m.media-amazon.com/images/I/71wxL0SZ7LL._AC_UY1100_.jpg" id="imgg">
+			<button id="button">Buy Now</button></a>
+		</div>
+		<div id="glass_end">
+			<a href="#a"><img src="https://www.zeiss.co.in/content/dam/vis-b2c/reference-master/images/better-vision/health-prevention/the-right-spectacle-frames-for-children/zeiss_the-right-spectacle-frames-for-children.jpg" id="imgg">
+			<button id="button">Buy Now</button></a>
+		</div></center>
+	</section>
+	<footer>
+		<div id="contact">
+			<h1 id="con">Contact Us</h1>
+			<address id="add">Wesite : spectacles.com</address>
+			<address id="add">Phone No : 8432408674</address>
+			<address id="add">Address : Near Sonaji Maharaj Temple , Sonala</address>
+			<a href="https://maps.app.goo.gl/YifvP2zqC3BwHGVC6"><address id="add">Location : https://maps.app.goo.gl/YifvP2zqC3BwHGVC6</address></a>
+			<address  id="add">Email ID : suyogpandav04@gmail.com</address>
+		</div>
+		<div><img src="poster.jpg" id="poster"></div>
+		<div id="social">
+			<h1 id="con">Follow Us</h1>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNg-J3UI_3eNXrDCLuYeu76WfBcfaENCZbA&s" id="imm">
+			<img src="https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg?semt=ais_hybrid" id="imm">
+			<img src="https://cdn.pixabay.com/photo/2017/08/23/11/30/twitter-2672572_1280.jpg" id="imm">
+			<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" id="imm">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkiiLc4b_hqC4IpLEyserLfG_TIfTlM5EH4A&s" id="imm">
+		</div>
+	</footer>
+</body>
+</html>
